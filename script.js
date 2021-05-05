@@ -7,7 +7,6 @@ function getTimeElement(){
 function setTime(){
     const time = getTimeElement()
     time.innerHTML = new Date().toLocaleString()
-    console.log()
 }
 
 setInterval(() => {
